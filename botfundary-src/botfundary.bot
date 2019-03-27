@@ -1,41 +1,45 @@
 {
-  "name": "botfundary",
-  "padlock": "DMzGc8ur7QM+JR1PUckPuA==!v2lm7aW2XeeqrGCbwW2gYfYfYgXFY1qKJbh2DcofG8Un9GayjmCOJcidN+YPHw8g",
-  "version": "2.0",
-  "services": [
-    {
-      "tenantId": "d5526766-a1f4-464f-82e4-c70373025cea",
-      "subscriptionId": "ef6bcb7a-5c66-4a83-97c9-d859b6f5d1b2",
-      "resourceGroup": "FundaryDev",
-      "serviceName": "botfundary",
-      "type": "abs",
-      "name": "botfundary",
-      "id": "1"
-    },
-    {
-      "connectionString": "Lxb+nubuygFqjnjJUf2g9Q==!KzFAQ11xSpacIA/g+OyL6cS/XOx3uEsi1tK4eWh1nfcDYP7tS75lAvxQxronb4CUiAEwZAQW8qB497lFZfOHrhN15YNBziI3KTXvqhn8OXbZoB8/hIGiV0i0ZIj3fm2kwDWxGTwy1murj4zp0/QHdHn7iC/BxEUrcHvMa1tAn38zKA5DynPlM1sgu9ckdkycLQ8uPcCfVXFWC/zLaAK/5A==",
-      "tenantId": "d5526766-a1f4-464f-82e4-c70373025cea",
-      "subscriptionId": "ef6bcb7a-5c66-4a83-97c9-d859b6f5d1b2",
-      "resourceGroup": "FundaryDev",
-      "serviceName": "botfundarya29d",
-      "type": "blob",
-      "id": "2"
-    },
-    {
-      "appId": "",
-      "appPassword": "",
-      "endpoint": "http://localhost:3978/api/messages",
-      "type": "endpoint",
-      "name": "development",
-      "id": "3"
-    },
-    {
-      "appId": "4be6f43e-7410-4c0a-8134-9b0063128a52",
-      "appPassword": "1WTSvkDMGzO1X0X/zRSN4A==!3JPb2BUjglYBdqLTcBLTAAHGlXbK0/+K7IxSoKtN1i2UX0tVGIJDLXrhqJn8fW2W",
-      "endpoint": "https://botfundary.azurewebsites.net/api/messages",
-      "type": "endpoint",
-      "name": "production",
-      "id": "4"
-    }
-  ]
+    "name": "botfundary",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "4be6f43e-7410-4c0a-8134-9b0063128a52",
+            "id": "1",
+            "name": "botfundary",
+            "resourceGroup": "FundaryDev",
+            "serviceName": "botfundary",
+            "subscriptionId": "ef6bcb7a-5c66-4a83-97c9-d859b6f5d1b2",
+            "tenantId": "d5526766-a1f4-464f-82e4-c70373025cea"
+        },
+        {
+            "type": "blob",
+            "connectionString": "qPvAsGpvLS71mAKTHD52FQ==!qReHbdCJ8VGDweG2jfXp+BRRPw7l7cR+O/DpzVgUBweWK9l4BEFN+dVRflkVi0G1tsj/IL1JC5y6EwmcKmwiUsARx9OX0dSgaueT8a5FwNnY4Br8VBLVMUuGbPDtjI50MHrmU/FikKw8w/0VUBwNSsceR9IsuFfRWVwZMMpsFtb0aMTLqqhgmrDXNKAjW+eDUgk8ATyZRVNdnKQuPV6myQ==",
+            "id": "2",
+            "resourceGroup": "FundaryDev",
+            "serviceName": "botfundarya29d",
+            "subscriptionId": "ef6bcb7a-5c66-4a83-97c9-d859b6f5d1b2",
+            "tenantId": "d5526766-a1f4-464f-82e4-c70373025cea"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "3",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "4be6f43e-7410-4c0a-8134-9b0063128a52",
+            "appPassword": "fH8RVZb2T12xrMGQ2eGQRA==!+hhLvX+XzBFn7/6ObpzmiNoHS1p/wf6b9eCTD9hP77vCKJp1lUqSd1JnKMlU+8+v",
+            "endpoint": "https://botfundary.azurewebsites.net/api/messages",
+            "id": "4",
+            "name": "production"
+        }
+    ],
+    "padlock": "DMzGc8ur7QM+JR1PUckPuA==!v2lm7aW2XeeqrGCbwW2gYfYfYgXFY1qKJbh2DcofG8Un9GayjmCOJcidN+YPHw8g",
+    "version": "2.0",
+    "path": "D:\\Users\\Roberto Estrada\\Source\\Repos\\fundarybot\\botfundary-src\\botfundary.bot",
+    "overrides": null
 }
